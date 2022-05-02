@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/vcpkg/buildtrees/realsense2/src/v2.50.0-ec78fddb81.clean/examples/hello-realsense/rs-hello-realsense.cpp
+librealsense2/rs.hpp
+-
+iostream
+-
+

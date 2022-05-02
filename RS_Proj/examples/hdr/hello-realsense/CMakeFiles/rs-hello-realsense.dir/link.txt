@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o  -o rs-hello-realsense  -lrealsense2 

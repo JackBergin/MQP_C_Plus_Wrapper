@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/rs-distance.dir/rs-distance.c.o  -o rs-distance  -lrealsense2 

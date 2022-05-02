@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/rs-hello-realsense.cpp
+GL/glut.h
+-
+math.h
+-
+iostream
+-
+librealsense2/rs.hpp
+-
+unistd.h
+-
+

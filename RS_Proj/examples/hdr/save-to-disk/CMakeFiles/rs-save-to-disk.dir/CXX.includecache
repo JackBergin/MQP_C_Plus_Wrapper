@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../third-party/stb_image_write.h
+stdlib.h
+-
+stdio.h
+-
+stdarg.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+assert.h
+-
+
+/home/parallels/vcpkg/buildtrees/realsense2/src/v2.50.0-ec78fddb81.clean/examples/save-to-disk/rs-save-to-disk.cpp
+librealsense2/rs.hpp
+-
+fstream
+-
+iostream
+-
+sstream
+-
+stb_image_write.h
+/home/parallels/vcpkg/buildtrees/realsense2/src/v2.50.0-ec78fddb81.clean/examples/save-to-disk/stb_image_write.h
+
