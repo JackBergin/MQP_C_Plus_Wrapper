@@ -40,7 +40,8 @@ int main(int argc, char * argv[]) try
 {
    // Create a Pipeline - this serves as a top-level API for streaming and processing frames
    rs2::pipeline p;
- 
+   glutInit(&argc, argv);
+
    // Configure and start the pipeline
    p.start();
  
@@ -62,14 +63,14 @@ int main(int argc, char * argv[]) try
     
        float dist_to_center = depth.get_distance(width / 2, height / 2);
        
-       glutInit(&argc, argv);
        glutInitDisplayMode(GLUT_SINGLE);
        glutInitWindowSize(1280, 720);
        glutInitWindowPosition(0, 0);
        glutCreateWindow("Calibration");
        glutDisplayFunc(displayMe);
+    
        glutMainLoopEvent();
-              
+       sleep(1);
        //exit(true);
 
        //delay(10);
