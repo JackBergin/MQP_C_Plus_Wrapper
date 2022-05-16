@@ -9,6 +9,8 @@
 /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/rs-hello-realsense.cpp
 GL/glut.h
 -
+GL/freeglut.h
+-
 math.h
 -
 iostream

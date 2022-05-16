@@ -5,12 +5,13 @@ localized to the realsense's reference frame
 */
 
 #include <GL/glut.h>
+#include <GL/freeglut.h>
 #include <math.h>
 #include <iostream>
 #include <librealsense2/rs.hpp>
 #include <unistd.h>
 
-/*
+
 void displayMe(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
@@ -31,7 +32,7 @@ void displayMe(void)
     glEnd();
     glFlush();
 }
-*/
+
 
 // Hello RealSense example demonstrates the basics of connecting to a RealSense device
 // and taking advantage of depth data
@@ -60,19 +61,15 @@ int main(int argc, char * argv[]) try
        // Query the distance from the camera to the object in the center of the image
     
        float dist_to_center = depth.get_distance(width / 2, height / 2);
-       /*
+       
        glutInit(&argc, argv);
        glutInitDisplayMode(GLUT_SINGLE);
        glutInitWindowSize(1280, 720);
        glutInitWindowPosition(0, 0);
        glutCreateWindow("Calibration");
        glutDisplayFunc(displayMe);
-       std::cout << "Entered projector loop\r";
-
-       glutMainLoop();
-       
-       sleep(0.1);
-       */
+       glutMainLoopEvent();
+              
        //exit(true);
 
        //delay(10);
