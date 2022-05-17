@@ -18,9 +18,10 @@ void displayMe(void)
     glColor3f(1.0f, 0.0f, 0.0f);
     glBegin(GL_POLYGON);                        // Middle circle
     double radius = 0.01;
-    double ori_x = -0.11;                         // the origin or center of circle
-    double ori_y = -0.46;
-
+    double ori_x = 0.0;                         // the origin or center of circle
+    double ori_y = 0.0;
+    //double ori_x = -0.11;                         // the origin or center of circle
+    //double ori_y = -0.46;
     //I want to insert the measurements to be here. can and should
     for (int i = 0; i <= 300; i++) {
         double angle = 2 * 3.14159265 * i / 300;
@@ -57,7 +58,8 @@ int main(int argc, char * argv[]) try
        auto width = depth.get_width();
        auto height = depth.get_height();
         
-        
+       //auto test = rs2_project_point_to_pixel(width, height);
+       
        //---------------Attrivial of the projector control-------------
        // Query the distance from the camera to the object in the center of the image
     

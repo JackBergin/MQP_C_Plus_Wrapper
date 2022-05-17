@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/rs-save-to-disk.dir/rs-save-to-disk.cpp.o  -o rs-save-to-disk  -lrealsense2 
