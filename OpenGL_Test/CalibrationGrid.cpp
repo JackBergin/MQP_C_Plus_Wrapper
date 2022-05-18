@@ -22,8 +22,8 @@ void displayMe(void)
         for (int j = 0; j < 9; j++){
             glBegin(GL_POLYGON);   
             double radius = 0.01;
-            double ori_x = 0+0.1*j;                    
-            double ori_y = 0+0.1*i;
+            double ori_x = 0.0+0.051*j;                    
+            double ori_y = 0.1+0.1*i;
             for (int i = 0; i <= 300; i++) {
                 double angle = 2 * 3.14159265 * i / 300;
                 double x = cos(angle) * radius;

@@ -1,0 +1,4 @@
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/pointcloud/CMakeFiles/rebuild_cache.dir
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/pointcloud/CMakeFiles/edit_cache.dir
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/pointcloud/pointcloud/CMakeFiles/rebuild_cache.dir
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/pointcloud/pointcloud/CMakeFiles/edit_cache.dir
