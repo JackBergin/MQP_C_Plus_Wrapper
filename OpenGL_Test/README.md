@@ -11,4 +11,4 @@ For a better explaination of the calibration, the pinhole method is a good way t
 
 ![Screen Shot 2022-05-18 at 5 50 45 AM](https://user-images.githubusercontent.com/81708456/169012324-80b54555-61cf-4a22-95e2-4a79bca35922.png)
 
-With this already being a capability on the realsense as a function, the two other things needed are; the transformation from camera to projector, the translation of the pixel point in the realsense frame to the corresponding pixel point of the projector.
+With this already being a capability on the realsense as a function, the two other things needed are; the transformation from camera to projector, the translation of the pixel point in the realsense frame to the corresponding pixel point of the projector. To implement these methodoligies of calibration, this grid of 9x8 1 inch checkerboard was created along with dots that correspond to the same spacing and are each a half inch in diameter from a  distance of 1.5 meters. The setup of the system was also changed from a static one to more of a dynamic one with the integration of a tripod.
