@@ -1,5 +1,6 @@
 
-# Sample Code for Intel® RealSense™ cameras
+# Sample Code for Intel® RealSense™ camerasz
+## NOTE: If the projects listed below are being added to the Repositoy make sure to change CMakeLists.txt within the "MQP/RS_Proj/examples" path to include the project as a sub-directory.
 **Code Examples to start prototyping quickly:** These simple examples demonstrate how to easily use the SDK to include code snippets that access the camera into your applications.  
 
 ## List of Examples:
