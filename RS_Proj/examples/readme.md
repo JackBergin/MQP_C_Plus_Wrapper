@@ -7,13 +7,9 @@
 |Name | Language | Description | Experience Level | Technology |
 |---|---|---|---|---|
 |[Hello-RealSense](./hello-realsense)| C++ | Demonstrates the basics of connecting to a RealSense device and using depth data | :star: | [![Depth Sensing - Structured Light, Stereo and L500](https://img.shields.io/badge/-Depth-5bc3ff.svg)](./depth.md) |
-
 |[Pointcloud](./pointcloud)| C++ | Showcase Projection API while generating and rendering 3D pointcloud | :star: | [![Depth Sensing - Structured Light, Stereo and L500](https://img.shields.io/badge/-Depth-5bc3ff.svg)](./depth.md) |
-
 |[ImShow](../wrappers/opencv/imshow) | C++ & [OpenCV](https://github.com/IntelRealSense/librealsense/tree/master/wrappers/opencv#getting-started) | Minimal OpenCV application for visualizing depth data | :star: | [![Depth Sensing - Structured Light, Stereo and L500](https://img.shields.io/badge/-Depth-5bc3ff.svg)](./depth.md)|
-
 |[Post Processing](./post-processing)| C++ | Demonstrating usage of post processing filters for depth images | :star::star: | [![Depth Sensing - Structured Light, Stereo and L500](https://img.shields.io/badge/-Depth-5bc3ff.svg)](./depth.md) |
-
 |[Apriltag Pose](./pose-apriltag)|C++|Demonstrates how to compute [Apriltag](https://github.com/AprilRobotics/apriltag/tree/3.1.1) pose from T265 fisheye image stream. | :star::star: |[![Motion Tracking - T260 and SLAM](https://img.shields.io/badge/-Tracking-0e2356.svg)](../doc/t265.md#examples-and-tools)|
 
 ### Community Projects:
