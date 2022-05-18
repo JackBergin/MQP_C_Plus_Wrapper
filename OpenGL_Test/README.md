@@ -7,3 +7,8 @@ It is a red dot in the center of the screen which will be extended to creating a
 
 ![IMG_2BE960F67919-1](https://user-images.githubusercontent.com/81708456/168799454-2291c6a7-34a2-4a5e-a5e4-570e85f9e380.jpeg)
 
+For a better explaination of the calibration, the pinhole method is a good way to visualize what is going to be done in the camera and projector system. The following image showcases a pinhole method being done on a camera. "The pinhole camera model describes a camera that projects scene 3D points into the image plane by means of a perspective transformation." (https://docs.nvidia.com/vpi/appendix_pinhole_camera.html) 
+
+![Screen Shot 2022-05-18 at 5 50 45 AM](https://user-images.githubusercontent.com/81708456/169012324-80b54555-61cf-4a22-95e2-4a79bca35922.png)
+
+With this already being a capability on the realsense as a function, the two other things needed are; the transformation from camera to projector, the translation of the pixel point in the realsense frame to the corresponding pixel point of the projector.
