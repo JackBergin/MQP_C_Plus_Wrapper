@@ -2,7 +2,7 @@
 ## Setup of the Repository
 Storage for all of the work done on MQP including research and current solutions
 To access the current class being developed for the project follow the following directory:
-MQP/RS_Proj/examples/hello-realsense2 
+MQP/RS_Proj/examples/hello-realsense
 
 ![Screen Shot 2022-05-17 at 7 04 49 AM](https://user-images.githubusercontent.com/81708456/168797223-9599c692-7b67-40b1-bd78-5062914c8e84.png)
 
