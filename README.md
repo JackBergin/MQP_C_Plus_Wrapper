@@ -21,11 +21,11 @@ Once completed, the file should look similar to the following:
 /usr/bin/c++    -rdynamic CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o  -o rs-hello-realsense  -lrealsense2 -lGL -lGLU -lglut
 
 Now, all that needs to be done is to execute the "make" function in terminal/terminator in the following directories:
-MQP/RS_Proj/examples/hello-realsense2 
-MQP/RS_Proj/examples/hello-realsense2/hello-realsense2 
+MQP/RS_Proj/examples/hello-realsense
+MQP/RS_Proj/examples/hello-realsense/hello-realsense
 
 Once this step is executed, the repository is set to run. Navigate to the following directory:
-MQP/RS_Proj/examples/hello-realsense2/hello-realsense2 
+MQP/RS_Proj/examples/hello-realsense/hello-realsense
 And run this command: "./rs-hello-realsense"
 This in the above directory is an executable file that will run all of the c++ script with the needed realsense dependencies.
 
