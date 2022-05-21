@@ -15,10 +15,10 @@ MQP/RS_Proj/examples/hello-realsense2/hello-realsense2/CMakeFiles/rs-hello-reals
  ![Screen Shot 2022-05-17 at 7 04 36 AM](https://user-images.githubusercontent.com/81708456/168797127-1dc3847f-3c24-4cc5-bf6f-8c2f143e537c.png)
 
 In this file insert the following script on the end of the txt file:
- -lGL -lGLU -lglut
+-lglfw -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl -lglut
 
 Once completed, the file should look similar to the following:
-/usr/bin/c++    -rdynamic CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o  -o rs-hello-realsense  -lrealsense2 -lGL -lGLU -lglut
+/usr/bin/c++    -rdynamic CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o  -o rs-hello-realsense  -lrealsense2 -lglfw -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl -lglut
 
 Now, all that needs to be done is to execute the "make" function in terminal/terminator in the following directories:
 MQP/RS_Proj/examples/hello-realsense
