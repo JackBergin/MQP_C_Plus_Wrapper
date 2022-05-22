@@ -13,6 +13,7 @@ int main(int argc, char * argv[]) try
 {
     // Create a simple OpenGL window for rendering:
     window app(1280, 720, "RealSense Pointcloud Example");
+
     // Construct an object to manage view state
     glfw_state app_state;
     // register callbacks to allow manipulation of the pointcloud
@@ -28,8 +29,8 @@ int main(int argc, char * argv[]) try
     // Start streaming with default recommended configuration
     pipe.start();
 
-    while (app) // Application still alive?
-    {
+    //while (app) // Application still alive?
+    //{
         // Wait for the next set of frames from the camera
         auto frames = pipe.wait_for_frames();
 
@@ -46,13 +47,40 @@ int main(int argc, char * argv[]) try
 
         // Generate the pointcloud and texture mappings
         points = pc.calculate(depth);
+        
+        //std::cout << "SIZE: " << points.size();
+        //std::cout << "POINTS: " << points;
+        
+        auto vertices = points.get_vertices();              // get vertices
+        auto tex_coords = points.get_texture_coordinates(); // and texture coordinates
+        std::vector< double > verticieX;
+        std::vector< double > verticieY;        
+        std::vector< double > verticieZ;
 
+
+        for (int i = 0; i < points.size(); i++) {
+            if (vertices[i].z){
+                //Gets all of the point cloud data
+                verticieX.push_back(vertices[i].x);
+                verticieY.push_back(vertices[i].y);                
+                verticieZ.push_back(vertices[i].z);
+            }
+        }
+        
+        /*
+        std::cout << "X Pt: " << verticieX[1] << "Length X: " << verticieX.size();
+        std::cout << "Y Pt: " << verticieY[1] << "Length Y: " << verticieY.size();
+        std::cout << "Z Pt: " << verticieZ[1] << "Length Z: " << verticieZ.size();
+        */
+                
         // Upload the color frame to OpenGL
         app_state.tex.upload(color);
 
         // Draw the pointcloud
         draw_pointcloud(app.width(), app.height(), app_state, points);
-    }
+    //}
+    
+
 
     return EXIT_SUCCESS;
 }
