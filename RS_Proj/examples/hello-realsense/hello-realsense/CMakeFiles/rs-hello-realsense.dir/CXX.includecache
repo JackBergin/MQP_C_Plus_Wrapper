@@ -49,6 +49,12 @@ librealsense2/rs.hpp
 -
 /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/example.hpp
 -
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl.hpp
+-
+librealsense2/rs.hpp
+-
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/example.hpp
+-
 algorithm
 -
 GL/glut.h
@@ -62,6 +68,14 @@ iostream
 librealsense2/rs.hpp
 -
 unistd.h
+-
+
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl.hpp
+librealsense2/rs.hpp
+-
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl.h
+-
+memory
 -
 
 /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/third-party/stb_easy_font.h
