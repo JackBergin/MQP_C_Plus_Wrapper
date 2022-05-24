@@ -98,7 +98,6 @@ catch (const std::exception & e)
 }
 
 
-
 /*
 Within this script, we will be able to inject the realsense coordinate information (hopefully)
 and then from there be able to localize a projection within our anybeam projector on to the wall
