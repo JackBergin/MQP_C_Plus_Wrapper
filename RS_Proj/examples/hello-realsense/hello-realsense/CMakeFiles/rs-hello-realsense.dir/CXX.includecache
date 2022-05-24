@@ -70,10 +70,14 @@ librealsense2/rs.hpp
 unistd.h
 -
 
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl .h
+librealsense2/rs.h
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/librealsense2/rs.h
+
 /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl.hpp
 librealsense2/rs.hpp
 -
-/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl.h
+/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl .h
 -
 memory
 -

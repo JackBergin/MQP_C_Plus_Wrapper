@@ -5,7 +5,7 @@
  #define LIBREALSENSE_RS2_PROCESSING_GL_HPP
  
  #include <librealsense2/rs.hpp>
- #include "/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl.h"
+ #include "/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/rs_processing_gl .h"
 
  #include <memory>
  
