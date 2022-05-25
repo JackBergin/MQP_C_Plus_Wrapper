@@ -49,6 +49,10 @@ librealsense2/rs.hpp
 -
 /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/example.hpp
 -
+iostream
+-
+fstream
+-
 algorithm
 -
 GL/glut.h

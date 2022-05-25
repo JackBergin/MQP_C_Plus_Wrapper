@@ -4,7 +4,8 @@
 
 #include <librealsense2/rs.hpp> // Include RealSense Cross Platform API
 #include "/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/example.hpp"          // Include short list of convenience functions for rendering
-
+#include <iostream>
+#include <fstream>
 #include <algorithm>            // std::min, std::max
 
 // Helper functions
@@ -58,7 +59,7 @@ int main(int argc, char * argv[]) try
         std::vector< double > verticieX;
         std::vector< double > verticieY;        
         std::vector< double > verticieZ;
-
+        
 
         for (int i = 0; i < points.size(); i++) {
             if (vertices[i].z){
@@ -66,15 +67,33 @@ int main(int argc, char * argv[]) try
                 verticieX.push_back(vertices[i].x);
                 verticieY.push_back(vertices[i].y);                
                 verticieZ.push_back(vertices[i].z);
-            }
+           }
         }
         
-        
+        // Preliminary visualization of the points in the output window
         std::cout << "X Pt: " << verticieX[1] << "Length X: " << verticieX.size();
         std::cout << "Y Pt: " << verticieY[1] << "Length Y: " << verticieY.size();
         std::cout << "Z Pt: " << verticieZ[1] << "Length Z: " << verticieZ.size();
         
-                
+        // Csv storage of the point cloud for x, y, and z
+        std::ofstream myfile;
+        myfile.open ("/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/example.csv");
+        myfile << "Verticie X, Verticie Y, Verticie Z, \n";
+
+
+
+        for(int j = 0; j < points.size(); j++){
+           //myfile << verticieX[j];
+           //myfile << verticieY[j];           
+           //myfile << verticieZ[j];
+           //myfile << "\n";
+            myfile << verticieX[j] << "," << verticieY[j] << "," << verticieZ[j] << std::endl;
+
+
+        }
+
+        myfile.close();
+
         // Upload the color frame to OpenGL
         app_state.tex.upload(color);
 
