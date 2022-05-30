@@ -8,10 +8,8 @@ xcoord = []
 ycoord = []
 zcoord = []
 
-
-
 # Converts values from the csv into lists for graphing
-with open('example.csv','r') as csvfile:
+with open('/home/parallels/Desktop/GitHub_Work/MQP/Visualize_Point_Cloud/example.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter = ',')
     for row in plots:
         xcoord.append(row[0])
@@ -33,11 +31,12 @@ zToFloat = []
 for j in range(size):
     xToFloat.append(float(xcoord[j]))
     yToFloat.append(float(ycoord[j]))
-    yToFloat.append(float(zcoord[j]))
+    zToFloat.append(float(zcoord[j]))
 
 ax = plt.axes(projection='3d')
-ax.scatter3D(xToFloat, yToFloat, yToFloat, cmap='Greens');
-ax.set_xlabel('Time', fontsize = 10)
-ax.set_ylabel('Temperature', fontsize = 10)
-ax.set_title('Temperature over Time IDF environment', fontsize = 20)
-#plt.show()
+ax.scatter3D(xToFloat, yToFloat, zToFloat, c=zToFloat, cmap='viridis');
+ax.set_xlabel('X', fontsize = 10)
+ax.set_ylabel('Y', fontsize = 10)
+ax.set_zlabel('Z', fontsize = 10)
+ax.set_title('Point Cloud Visualization', fontsize = 20)
+plt.show()
