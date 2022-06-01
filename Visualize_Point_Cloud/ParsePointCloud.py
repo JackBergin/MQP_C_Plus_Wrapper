@@ -33,6 +33,13 @@ for j in range(size):
     yToFloat.append(float(ycoord[j]))
     zToFloat.append(float(zcoord[j]))
 
+plt.plot(xToFloat, yToFloat, 'o', color='black');
+plt.xlabel('X', fontsize = 10)
+plt.ylabel('Y', fontsize = 10)
+plt.title('2D Point Cloud Visualization', fontsize = 20)
+plt.show()
+
+'''
 ax = plt.axes(projection='3d')
 ax.scatter3D(xToFloat, yToFloat, zToFloat, c=zToFloat, cmap='viridis');
 ax.set_xlabel('X', fontsize = 10)
@@ -40,3 +47,4 @@ ax.set_ylabel('Y', fontsize = 10)
 ax.set_zlabel('Z', fontsize = 10)
 ax.set_title('Point Cloud Visualization', fontsize = 20)
 plt.show()
+'''
