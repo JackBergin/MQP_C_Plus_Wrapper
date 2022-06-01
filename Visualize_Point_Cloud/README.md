@@ -23,3 +23,6 @@ For examples sake, say we wanted to make the point cloud visible only for when x
 
 ![Figure_3](https://user-images.githubusercontent.com/81708456/171461027-def933fd-37da-46b2-a293-e1a142f82c26.png)
 
+Once the 3D points are applied to the 2D trimmed visualization above, we are left with the following graph. Its z axis fluctuates due to the environment it was scanned in but when a live stream of point clouds are being generated, the noise will be reduced. 
+
+![Figure_4](https://user-images.githubusercontent.com/81708456/171514658-a1ed103b-2484-4d94-9f5f-fb204b286834.png)
