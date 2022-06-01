@@ -4,5 +4,16 @@
 hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o
  /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/example-utils.hpp
  /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/example.hpp
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/apriltag.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/apriltag_pose.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/homography.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/image_types.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/image_u8.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/matd.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/time_util.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/timeprofile.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/workerpool.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/zarray.h
+ /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/tag36h11.h
  /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/rs-hello-realsense.cpp
  /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/third-party/stb_easy_font.h
