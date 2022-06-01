@@ -18,3 +18,8 @@ The following is the output of the point cloud graphing. From here, we will use 
 The following image below depics the x and y axis of the point cloud to which we can modify the cloud in total in order to have it map on to the projector's frame of view:
 
 ![Figure_2](https://user-images.githubusercontent.com/81708456/171459332-36021202-2f8d-4bf4-a2f9-09d966ac0bcd.png)
+
+For examples sake, say we wanted to make the point cloud visible only for when x is between -1 meters to -0.25 meters and y is between -0.75 meters to 0 meters. In this case, using a simple loop with a nested if statement, we are able to trim the pointcloud for its visiblity only to be in the frame of this range. The same will be done when the projector projects april tags on its corners, creates a range and then this range is used to cut down the visibility of the pointcloud for the realsense. The following is a result from the proposed test stated above:
+
+![Figure_3](https://user-images.githubusercontent.com/81708456/171461027-def933fd-37da-46b2-a293-e1a142f82c26.png)
+
