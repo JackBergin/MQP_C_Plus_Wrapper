@@ -3,17 +3,17 @@
 
 hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: ../example-utils.hpp
 hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: ../example.hpp
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/apriltag.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/apriltag_pose.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/common/homography.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/common/image_types.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/common/image_u8.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/common/matd.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/common/time_util.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/common/timeprofile.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/common/workerpool.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/common/zarray.h
-hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: april-tag-dependencies/tag36h11.h
 hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: rs-hello-realsense.cpp
 hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/third-party/stb_easy_font.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/apriltag.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/apriltag_pose.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/common/homography.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/common/image_types.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/common/image_u8.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/common/matd.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/common/time_util.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/common/timeprofile.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/common/workerpool.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/common/zarray.h
+hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o: /home/parallels/apriltag-3.1.1/tag36h11.h
 

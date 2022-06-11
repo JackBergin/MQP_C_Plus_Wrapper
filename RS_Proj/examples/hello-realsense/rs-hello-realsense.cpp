@@ -10,10 +10,10 @@
 #include <future>
 #include <math.h>
 
-#include "/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/apriltag.h"
-#include "/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/apriltag_pose.h"
-#include "/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/common/homography.h"
-#include "/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/april-tag-dependencies/tag36h11.h"
+#include "/home/parallels/apriltag-3.1.1/apriltag.h"
+#include "/home/parallels/apriltag-3.1.1/apriltag_pose.h"
+#include "/home/parallels/apriltag-3.1.1/common/homography.h"
+#include "/home/parallels/apriltag-3.1.1/tag36h11.h"
 
 #define FORMAT_VALUE     std::fixed << std::right << std::setprecision(3) << std::setw(6)
 
