@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a file.
+APRILTAG_INC:PATH=APRILTAG_INC-NOTFOUND
+
+//Path to a library.
+APRILTAG_LIB:FILEPATH=APRILTAG_LIB-NOTFOUND
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -364,6 +370,12 @@ RealsenseExamples_BINARY_DIR:STATIC=/home/parallels/Desktop/GitHub_Work/MQP/RS_P
 
 //Value Computed by CMake
 RealsenseExamples_SOURCE_DIR:STATIC=/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples
+
+//Path to a library.
+apriltag:FILEPATH=apriltag-NOTFOUND
+
+//The directory containing a CMake configuration file for apriltag.
+apriltag_DIR:PATH=apriltag_DIR-NOTFOUND
 
 //Value Computed by CMake
 rs-callback_BINARY_DIR:STATIC=/home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/callback

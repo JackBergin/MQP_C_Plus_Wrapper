@@ -10,10 +10,10 @@
 #include <future>
 #include <math.h>
 
-#include "/home/parallels/apriltag/apriltag.h"
-#include "/home/parallels/apriltag/apriltag_pose.h"
-#include "/home/parallels/apriltag/common/homography.h"
-#include "/home/parallels/apriltag/tag36h11.h"
+#include "/home/parallels/apriltag/apriltag-3.1.1/apriltag.h"
+#include "/home/parallels/apriltag/apriltag-3.1.1/apriltag_pose.h"
+#include "/home/parallels/apriltag/apriltag-3.1.1/common/homography.h"
+#include "/home/parallels/apriltag/apriltag-3.1.1/tag36h11.h"
 
 #define FORMAT_VALUE     std::fixed << std::right << std::setprecision(3) << std::setw(6)
 
