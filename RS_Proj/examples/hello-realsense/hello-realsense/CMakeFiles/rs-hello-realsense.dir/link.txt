@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o -o rs-hello-realsense -lrealsense2 -lglfw -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl -lglut
+/usr/bin/c++    -rdynamic CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o  -o rs-hello-realsense  -lrealsense2 -lglfw -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl -lglut -lpthread 

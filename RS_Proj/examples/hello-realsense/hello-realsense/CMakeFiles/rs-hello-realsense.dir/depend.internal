@@ -6,3 +6,14 @@ hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o
  /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/example.hpp
  /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/examples/hello-realsense/rs-hello-realsense.cpp
  /home/parallels/Desktop/GitHub_Work/MQP/RS_Proj/third-party/stb_easy_font.h
+ /home/parallels/apriltag/apriltag-3.1.1/apriltag.h
+ /home/parallels/apriltag/apriltag-3.1.1/apriltag_pose.h
+ /home/parallels/apriltag/apriltag-3.1.1/common/homography.h
+ /home/parallels/apriltag/apriltag-3.1.1/common/image_types.h
+ /home/parallels/apriltag/apriltag-3.1.1/common/image_u8.h
+ /home/parallels/apriltag/apriltag-3.1.1/common/matd.h
+ /home/parallels/apriltag/apriltag-3.1.1/common/time_util.h
+ /home/parallels/apriltag/apriltag-3.1.1/common/timeprofile.h
+ /home/parallels/apriltag/apriltag-3.1.1/common/workerpool.h
+ /home/parallels/apriltag/apriltag-3.1.1/common/zarray.h
+ /home/parallels/apriltag/apriltag-3.1.1/tag36h11.h
